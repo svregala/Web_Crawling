@@ -1,0 +1,45 @@
+Name: Steve Regala
+USC ID: 7293040280
+News site crawled: usatoday.com
+Number of threads: 7
+
+Fetch Statistics
+====================
+# fetches attempted: 20000
+# fetches succeeded: 18728
+# fetches failed or aborted: 1272
+
+Outgoing URLs:
+====================
+Total URLs extracted: 3825301
+# unique URLs extracted: 930361
+# unique URLs within News Site: 746099
+# unique URLs outside News Site: 184262
+
+Status Codes:
+====================
+200 OK: 18728
+301 Moved permanently: 585
+302 Found: 633
+303 See other: 1
+307 Temporary redirect: 46
+308: 2
+404 Not found: 3
+500 Internal server error: 2
+
+File Sizes:
+====================
+< 1KB: 1
+1KB ~ <10KB: 93
+10KB ~ <100KB: 652
+100KB ~ <1MB: 17763
+>= 1MB: 5
+
+Content Types:
+====================
+image/png: 196
+text/html: 17972
+image/jpeg: 336
+image/x-icon: 1
+image/svg+xml: 5
+image/webp: 4
