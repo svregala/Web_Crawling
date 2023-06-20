@@ -1,2 +1,6 @@
 # Web_Crawling
  
+For the full, detailed project description, please take a look at Project_Description.pdf. To run the project, all the necessary files are under MyCrawlerProject/src, which are: Controller.java, MyCrawler.java, CrawlResult.java, Discovered.java, Fetched.java, and Visited.java. Note: the project optimally runs in Eclipse coding environment with the corresponding external jar files (under jar_files -- add these to the project dependencies). Click "Run Project" to perform web crawl.
+
+**Synopsis**: In this project, we expand on an existing web crawler to measure the aspects of a crawl, study the characteristics of the crawl, download web pages from the crawl, and gather webpage metadata. We can choose which news sites to crawl by editing some of the code, but for this repository, we crawl the USA Today news site (https://www.usatoday.com). After running, the crawl creates 3 CSV files (fetch_usatoday.csv, urls_usatoday.csv, visit_usatoday,csv) and 1 text file (CrawlReport_usatoday.txt).
+urls_usatoday.csv
