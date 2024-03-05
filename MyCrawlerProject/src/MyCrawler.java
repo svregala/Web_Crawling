@@ -92,8 +92,8 @@ public class MyCrawler extends WebCrawler {
 	    	content_type = content_type.substring(0,end_index);
 	    }
 	    
-	    if(content_type.startsWith("image") || content_type.equals("text/html") || content_type.equals("application/msword") 
-	    		|| content_type.equals("application/pdf") || content_type.equals("application/document") || content_type.equals("application/application/vnd.openxmlformats-officedocument.wordprocessingml.document")){
+	    if(content_type.startsWith("image") || "text/html".equals(content_type) || "application/msword".equals(content_type) 
+	    		|| "application/pdf".equals(content_type) || "application/document".equals(content_type) || "application/application/vnd.openxmlformats-officedocument.wordprocessingml.document".equals(content_type)){
 	    	int file_size = page.getContentData().length;
 	    	int num_outlinks = page.getParseData().getOutgoingUrls().size();
 	    	crawl_result.add_visited(url, file_size, num_outlinks, content_type);
